@@ -2583,6 +2583,219 @@ Source: http://www.irf.com/product-info/datasheets/data/irf3704.pdf</description
 </deviceset>
 </devicesets>
 </library>
+<library name="ESP32-PICO-KIT">
+<packages>
+<package name="XCVR_ESP32-PICO-KIT">
+<wire x1="-26" y1="10.15" x2="26" y2="10.15" width="0.127" layer="51"/>
+<wire x1="26" y1="10.15" x2="26" y2="-10.15" width="0.127" layer="51"/>
+<wire x1="26" y1="-10.15" x2="-26" y2="-10.15" width="0.127" layer="51"/>
+<wire x1="-26" y1="-10.15" x2="-26" y2="10.15" width="0.127" layer="51"/>
+<wire x1="-26" y1="10.15" x2="26" y2="10.15" width="0.127" layer="21"/>
+<wire x1="26" y1="10.15" x2="26" y2="-10.15" width="0.127" layer="21"/>
+<wire x1="26" y1="-10.15" x2="-26" y2="-10.15" width="0.127" layer="21"/>
+<wire x1="-26" y1="-10.15" x2="-26" y2="10.15" width="0.127" layer="21"/>
+<wire x1="-26.25" y1="10.4" x2="26.25" y2="10.4" width="0.05" layer="39"/>
+<wire x1="26.25" y1="10.4" x2="26.25" y2="-10.4" width="0.05" layer="39"/>
+<wire x1="26.25" y1="-10.4" x2="-26.25" y2="-10.4" width="0.05" layer="39"/>
+<wire x1="-26.25" y1="-10.4" x2="-26.25" y2="10.4" width="0.05" layer="39"/>
+<text x="-25.9215" y="10.5055" size="1.20063125" layer="21">FSD1</text>
+<text x="-25.9405" y="-11.953" size="1.201509375" layer="21">FCS</text>
+<text x="23.0002" y="10.506" size="1.200690625" layer="21">3V3</text>
+<text x="23.5064" y="-11.9438" size="1.20058125" layer="21">5V</text>
+<text x="-25.4291" y="12.7145" size="1.27" layer="25">&gt;NAME</text>
+<text x="-25.4211" y="-13.9816" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="-27.1" y="8.9" radius="0.22360625" width="0.2" layer="21"/>
+<pad name="J2_10" x="-1.27" y="8.89" drill="1.2"/>
+<pad name="J2_11" x="1.27" y="8.89" drill="1.2"/>
+<pad name="J2_9" x="-3.81" y="8.89" drill="1.2"/>
+<pad name="J2_8" x="-6.35" y="8.89" drill="1.2"/>
+<pad name="J2_7" x="-8.89" y="8.89" drill="1.2"/>
+<pad name="J2_6" x="-11.43" y="8.89" drill="1.2"/>
+<pad name="J2_5" x="-13.97" y="8.89" drill="1.2"/>
+<pad name="J2_4" x="-16.51" y="8.89" drill="1.2"/>
+<pad name="J2_3" x="-19.05" y="8.89" drill="1.2"/>
+<pad name="J2_2" x="-21.59" y="8.89" drill="1.2"/>
+<pad name="J2_1" x="-24.13" y="8.89" drill="1.2" shape="square"/>
+<pad name="J2_12" x="3.81" y="8.89" drill="1.2"/>
+<pad name="J2_13" x="6.35" y="8.89" drill="1.2"/>
+<pad name="J2_14" x="8.89" y="8.89" drill="1.2"/>
+<pad name="J2_15" x="11.43" y="8.89" drill="1.2"/>
+<pad name="J2_16" x="13.97" y="8.89" drill="1.2"/>
+<pad name="J2_17" x="16.51" y="8.89" drill="1.2"/>
+<pad name="J2_18" x="19.05" y="8.89" drill="1.2"/>
+<pad name="J2_19" x="21.59" y="8.89" drill="1.2"/>
+<pad name="J2_20" x="24.13" y="8.89" drill="1.2"/>
+<pad name="J3_10" x="-1.27" y="-8.89" drill="1.2"/>
+<pad name="J3_11" x="1.27" y="-8.89" drill="1.2"/>
+<pad name="J3_9" x="-3.81" y="-8.89" drill="1.2"/>
+<pad name="J3_8" x="-6.35" y="-8.89" drill="1.2"/>
+<pad name="J3_7" x="-8.89" y="-8.89" drill="1.2"/>
+<pad name="J3_6" x="-11.43" y="-8.89" drill="1.2"/>
+<pad name="J3_5" x="-13.97" y="-8.89" drill="1.2"/>
+<pad name="J3_4" x="-16.51" y="-8.89" drill="1.2"/>
+<pad name="J3_3" x="-19.05" y="-8.89" drill="1.2"/>
+<pad name="J3_2" x="-21.59" y="-8.89" drill="1.2"/>
+<pad name="J3_1" x="-24.13" y="-8.89" drill="1.2" shape="square"/>
+<pad name="J3_12" x="3.81" y="-8.89" drill="1.2"/>
+<pad name="J3_13" x="6.35" y="-8.89" drill="1.2"/>
+<pad name="J3_14" x="8.89" y="-8.89" drill="1.2"/>
+<pad name="J3_15" x="11.43" y="-8.89" drill="1.2"/>
+<pad name="J3_16" x="13.97" y="-8.89" drill="1.2"/>
+<pad name="J3_17" x="16.51" y="-8.89" drill="1.2"/>
+<pad name="J3_18" x="19.05" y="-8.89" drill="1.2"/>
+<pad name="J3_19" x="21.59" y="-8.89" drill="1.2"/>
+<pad name="J3_20" x="24.13" y="-8.89" drill="1.2"/>
+</package>
+</packages>
+<symbols>
+<symbol name="ESP32-PICO-KIT">
+<wire x1="-15.24" y1="38.1" x2="15.24" y2="38.1" width="0.254" layer="94"/>
+<wire x1="15.24" y1="38.1" x2="15.24" y2="-38.1" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-38.1" x2="-15.24" y2="-38.1" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-38.1" x2="-15.24" y2="38.1" width="0.254" layer="94"/>
+<text x="-15.2627" y="39.1591" size="1.780640625" layer="95">&gt;NAME</text>
+<text x="-15.2623" y="-40.6808" size="1.7806" layer="96">&gt;VALUE</text>
+<pin name="FLASH_SD1" x="20.32" y="5.08" length="middle" rot="R180"/>
+<pin name="FLASH_SD3" x="20.32" y="0" length="middle" rot="R180"/>
+<pin name="FLASH_CLK" x="20.32" y="10.16" length="middle" rot="R180"/>
+<pin name="IO21" x="-20.32" y="-2.54" length="middle"/>
+<pin name="IO22" x="-20.32" y="-5.08" length="middle"/>
+<pin name="IO19" x="-20.32" y="0" length="middle"/>
+<pin name="IO23" x="-20.32" y="-7.62" length="middle"/>
+<pin name="IO18" x="-20.32" y="2.54" length="middle"/>
+<pin name="IO5" x="-20.32" y="20.32" length="middle"/>
+<pin name="IO10" x="-20.32" y="15.24" length="middle"/>
+<pin name="IO9" x="-20.32" y="17.78" length="middle"/>
+<pin name="RXD0" x="20.32" y="-15.24" length="middle" rot="R180"/>
+<pin name="TXD0" x="20.32" y="-12.7" length="middle" rot="R180"/>
+<pin name="IO35" x="-20.32" y="-25.4" length="middle" direction="in"/>
+<pin name="IO34" x="-20.32" y="-22.86" length="middle" direction="in"/>
+<pin name="IO38" x="-20.32" y="-30.48" length="middle" direction="in"/>
+<pin name="IO37" x="-20.32" y="-27.94" length="middle" direction="in"/>
+<pin name="EN" x="20.32" y="17.78" length="middle" direction="in" rot="R180"/>
+<pin name="GND_1" x="20.32" y="-33.02" length="middle" direction="pwr" rot="R180"/>
+<pin name="VDD33_1" x="20.32" y="35.56" length="middle" direction="pwr" rot="R180"/>
+<pin name="FLASH_CS" x="20.32" y="12.7" length="middle" rot="R180"/>
+<pin name="FLASH_SD0" x="20.32" y="7.62" length="middle" rot="R180"/>
+<pin name="FLASH_SD2" x="20.32" y="2.54" length="middle" rot="R180"/>
+<pin name="SENSOR_VP" x="20.32" y="-5.08" length="middle" direction="in" rot="R180"/>
+<pin name="SENSOR_VN" x="20.32" y="-7.62" length="middle" direction="in" rot="R180"/>
+<pin name="IO25" x="-20.32" y="-10.16" length="middle"/>
+<pin name="IO26" x="-20.32" y="-12.7" length="middle"/>
+<pin name="IO32" x="-20.32" y="-17.78" length="middle"/>
+<pin name="IO33" x="-20.32" y="-20.32" length="middle"/>
+<pin name="IO27" x="-20.32" y="-15.24" length="middle"/>
+<pin name="IO14" x="-20.32" y="7.62" length="middle"/>
+<pin name="IO12" x="-20.32" y="12.7" length="middle"/>
+<pin name="IO13" x="-20.32" y="10.16" length="middle"/>
+<pin name="IO15" x="-20.32" y="5.08" length="middle"/>
+<pin name="IO2" x="-20.32" y="25.4" length="middle"/>
+<pin name="IO4" x="-20.32" y="22.86" length="middle"/>
+<pin name="IO0" x="-20.32" y="27.94" length="middle"/>
+<pin name="VDD33_2" x="20.32" y="33.02" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND_2" x="20.32" y="-35.56" length="middle" direction="pwr" rot="R180"/>
+<pin name="EXT_5V" x="20.32" y="30.48" length="middle" direction="pwr" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ESP32-PICO-KIT" prefix="J">
+<description>Esp32 Wifi Bluetooth Eval Board &lt;a href="https://pricing.snapeda.com/parts/ESP32-PICO-KIT/Espressif%20Systems/view-part?ref=eda"&gt;Check prices&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="ESP32-PICO-KIT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="XCVR_ESP32-PICO-KIT">
+<connects>
+<connect gate="G$1" pin="EN" pad="J2_18"/>
+<connect gate="G$1" pin="EXT_5V" pad="J3_20"/>
+<connect gate="G$1" pin="FLASH_CLK" pad="J2_3"/>
+<connect gate="G$1" pin="FLASH_CS" pad="J3_1"/>
+<connect gate="G$1" pin="FLASH_SD0" pad="J3_2"/>
+<connect gate="G$1" pin="FLASH_SD1" pad="J2_1"/>
+<connect gate="G$1" pin="FLASH_SD2" pad="J3_3"/>
+<connect gate="G$1" pin="FLASH_SD3" pad="J2_2"/>
+<connect gate="G$1" pin="GND_1" pad="J2_19"/>
+<connect gate="G$1" pin="GND_2" pad="J3_19"/>
+<connect gate="G$1" pin="IO0" pad="J3_17"/>
+<connect gate="G$1" pin="IO10" pad="J2_10"/>
+<connect gate="G$1" pin="IO12" pad="J3_12"/>
+<connect gate="G$1" pin="IO13" pad="J3_13"/>
+<connect gate="G$1" pin="IO14" pad="J3_11"/>
+<connect gate="G$1" pin="IO15" pad="J3_14"/>
+<connect gate="G$1" pin="IO18" pad="J2_8"/>
+<connect gate="G$1" pin="IO19" pad="J2_6"/>
+<connect gate="G$1" pin="IO2" pad="J3_15"/>
+<connect gate="G$1" pin="IO21" pad="J2_4"/>
+<connect gate="G$1" pin="IO22" pad="J2_5"/>
+<connect gate="G$1" pin="IO23" pad="J2_7"/>
+<connect gate="G$1" pin="IO25" pad="J3_6"/>
+<connect gate="G$1" pin="IO26" pad="J3_7"/>
+<connect gate="G$1" pin="IO27" pad="J3_10"/>
+<connect gate="G$1" pin="IO32" pad="J3_8"/>
+<connect gate="G$1" pin="IO33" pad="J3_9"/>
+<connect gate="G$1" pin="IO34" pad="J2_15"/>
+<connect gate="G$1" pin="IO35" pad="J2_14"/>
+<connect gate="G$1" pin="IO37" pad="J2_17"/>
+<connect gate="G$1" pin="IO38" pad="J2_16"/>
+<connect gate="G$1" pin="IO4" pad="J3_16"/>
+<connect gate="G$1" pin="IO5" pad="J2_9"/>
+<connect gate="G$1" pin="IO9" pad="J2_11"/>
+<connect gate="G$1" pin="RXD0" pad="J2_12"/>
+<connect gate="G$1" pin="SENSOR_VN" pad="J3_5"/>
+<connect gate="G$1" pin="SENSOR_VP" pad="J3_4"/>
+<connect gate="G$1" pin="TXD0" pad="J2_13"/>
+<connect gate="G$1" pin="VDD33_1" pad="J2_20"/>
+<connect gate="G$1" pin="VDD33_2" pad="J3_18"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="DESCRIPTION" value=" ESP32-PICO-D4 - Transceiver; 802.11 b/g/n (Wi-Fi, WiFi, WLAN), Bluetooth® Smart Ready 4.x Dual Mode Evaluation Board "/>
+<attribute name="MF" value="Espressif Systems"/>
+<attribute name="MP" value="ESP32-PICO-KIT"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/ESP32-PICO-KIT/?ref=eda"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="supply2" urn="urn:adsk.eagle:library:372">
+<description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
+GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
+Please keep in mind, that these devices are necessary for the
+automatic wiring of the supply signals.&lt;p&gt;
+The pin name defined in the symbol is identical to the net which is to be wired automatically.&lt;p&gt;
+In this library the device names are the same as the pin names of the symbols, therefore the correct signal names appear next to the supply symbols in the schematic.&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="VEE" urn="urn:adsk.eagle:symbol:26999/1" library_version="2">
+<circle x="0" y="1.27" radius="1.27" width="0.254" layer="94"/>
+<text x="-1.905" y="3.175" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="VEE" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="VEE" urn="urn:adsk.eagle:component:27046/1" prefix="SUPPLY" library_version="2">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="VEE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2608,6 +2821,17 @@ Source: http://www.irf.com/product-info/datasheets/data/irf3704.pdf</description
 <part name="U$2" library="mylib" deviceset="TB002-500-P02" device=""/>
 <part name="C5" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2.5/2" package3d_urn="urn:adsk.eagle:package:5415/1"/>
 <part name="C6" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2.5/2" package3d_urn="urn:adsk.eagle:package:5415/1"/>
+<part name="J1" library="ESP32-PICO-KIT" deviceset="ESP32-PICO-KIT" device=""/>
+<part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VEE" device=""/>
+<part name="C7" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2.5/2" package3d_urn="urn:adsk.eagle:package:5415/1" value="4.7uf"/>
+<part name="C8" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2.5/2" package3d_urn="urn:adsk.eagle:package:5415/1" value=".1uf"/>
+<part name="Q3" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="IRF3704" device="-H" package3d_urn="urn:adsk.eagle:package:29490/1"/>
+<part name="U2" library="ICL7667CPAZ" deviceset="ICL7667CPAZ" device=""/>
+<part name="Q4" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="IRF3704" device="-H" package3d_urn="urn:adsk.eagle:package:29490/1"/>
+<part name="U$3" library="mylib" deviceset="TB002-500-P02" device=""/>
+<part name="U$4" library="mylib" deviceset="TB002-500-P02" device=""/>
+<part name="C9" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2.5/2" package3d_urn="urn:adsk.eagle:package:5415/1"/>
+<part name="C10" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2.5/2" package3d_urn="urn:adsk.eagle:package:5415/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -2669,6 +2893,43 @@ Source: http://www.irf.com/product-info/datasheets/data/irf3704.pdf</description
 <attribute name="NAME" x="263.144" y="74.041" size="1.778" layer="95"/>
 <attribute name="VALUE" x="263.144" y="68.961" size="1.778" layer="96"/>
 </instance>
+<instance part="J1" gate="G$1" x="71.12" y="-15.24" smashed="yes">
+<attribute name="NAME" x="55.8573" y="23.9191" size="1.780640625" layer="95"/>
+<attribute name="VALUE" x="55.8577" y="-55.9208" size="1.7806" layer="96"/>
+</instance>
+<instance part="SUPPLY1" gate="G$1" x="15.24" y="30.48" smashed="yes">
+<attribute name="VALUE" x="13.335" y="33.655" size="1.778" layer="96"/>
+</instance>
+<instance part="C7" gate="G$1" x="162.56" y="22.86" smashed="yes">
+<attribute name="NAME" x="164.084" y="23.241" size="1.778" layer="95"/>
+<attribute name="VALUE" x="164.084" y="18.161" size="1.778" layer="96"/>
+</instance>
+<instance part="C8" gate="G$1" x="175.26" y="22.86" smashed="yes">
+<attribute name="NAME" x="176.784" y="23.241" size="1.778" layer="95"/>
+<attribute name="VALUE" x="176.784" y="18.161" size="1.778" layer="96"/>
+</instance>
+<instance part="Q3" gate="G$1" x="259.08" y="7.62" smashed="yes">
+<attribute name="NAME" x="265.43" y="10.16" size="1.778" layer="95"/>
+<attribute name="VALUE" x="265.43" y="7.62" size="1.778" layer="96"/>
+</instance>
+<instance part="U2" gate="A" x="203.2" y="-2.54" smashed="yes">
+<attribute name="NAME" x="197.730859375" y="12.8245" size="2.0859" layer="95" ratio="10" rot="SR0"/>
+<attribute name="VALUE" x="198.5238" y="-24.3707" size="2.083959375" layer="96" ratio="10" rot="SR0"/>
+</instance>
+<instance part="Q4" gate="G$1" x="259.08" y="-20.32" smashed="yes">
+<attribute name="NAME" x="265.43" y="-17.78" size="1.778" layer="95"/>
+<attribute name="VALUE" x="265.43" y="-20.32" size="1.778" layer="96"/>
+</instance>
+<instance part="U$3" gate="G$1" x="299.72" y="12.7" smashed="yes"/>
+<instance part="U$4" gate="G$1" x="299.72" y="-15.24" smashed="yes"/>
+<instance part="C9" gate="G$1" x="284.48" y="10.16" smashed="yes">
+<attribute name="NAME" x="286.004" y="10.541" size="1.778" layer="95"/>
+<attribute name="VALUE" x="286.004" y="5.461" size="1.778" layer="96"/>
+</instance>
+<instance part="C10" gate="G$1" x="284.48" y="-17.78" smashed="yes">
+<attribute name="NAME" x="286.004" y="-17.399" size="1.778" layer="95"/>
+<attribute name="VALUE" x="286.004" y="-22.479" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -2719,6 +2980,41 @@ Source: http://www.irf.com/product-info/datasheets/data/irf3704.pdf</description
 <wire x1="152.4" y1="109.22" x2="152.4" y2="104.14" width="0.1524" layer="91"/>
 <label x="152.4" y="106.68" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="GND_1"/>
+<wire x1="91.44" y1="-48.26" x2="104.14" y2="-48.26" width="0.1524" layer="91"/>
+<label x="96.52" y="-48.26" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="GND_2"/>
+<wire x1="91.44" y1="-50.8" x2="104.14" y2="-50.8" width="0.1524" layer="91"/>
+<label x="96.52" y="-50.8" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U2" gate="A" pin="V-"/>
+<wire x1="185.42" y1="-15.24" x2="172.72" y2="-15.24" width="0.1524" layer="91"/>
+<label x="175.26" y="-15.24" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="Q4" gate="G$1" pin="S"/>
+<wire x1="261.62" y1="-25.4" x2="261.62" y2="-30.48" width="0.1524" layer="91"/>
+<label x="261.62" y="-30.48" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="Q3" gate="G$1" pin="S"/>
+<wire x1="261.62" y1="2.54" x2="261.62" y2="0" width="0.1524" layer="91"/>
+<label x="261.62" y="0" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="C7" gate="G$1" pin="2"/>
+<wire x1="162.56" y1="17.78" x2="162.56" y2="12.7" width="0.1524" layer="91"/>
+<label x="162.56" y="15.24" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="C8" gate="G$1" pin="2"/>
+<wire x1="175.26" y1="17.78" x2="175.26" y2="12.7" width="0.1524" layer="91"/>
+<label x="175.26" y="15.24" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
@@ -2735,6 +3031,11 @@ Source: http://www.irf.com/product-info/datasheets/data/irf3704.pdf</description
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="114.3" y1="76.2" x2="114.3" y2="81.28" width="0.1524" layer="91"/>
 <label x="114.3" y="78.74" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="91.44" y1="15.24" x2="104.14" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="EXT_5V"/>
+<label x="96.52" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VDD" class="0">
@@ -2786,6 +3087,39 @@ Source: http://www.irf.com/product-info/datasheets/data/irf3704.pdf</description
 <wire x1="152.4" y1="116.84" x2="152.4" y2="121.92" width="0.1524" layer="91"/>
 <label x="152.4" y="119.38" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U2" gate="A" pin="V+"/>
+<wire x1="185.42" y1="5.08" x2="172.72" y2="5.08" width="0.1524" layer="91"/>
+<label x="175.26" y="5.08" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="P$1"/>
+<wire x1="297.18" y1="10.16" x2="289.56" y2="10.16" width="0.1524" layer="91"/>
+<label x="287.02" y="15.24" size="1.778" layer="95"/>
+<wire x1="289.56" y1="10.16" x2="289.56" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="15.24" x2="284.48" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="C9" gate="G$1" pin="1"/>
+<wire x1="284.48" y1="15.24" x2="284.48" y2="12.7" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="P$1"/>
+<wire x1="297.18" y1="-17.78" x2="289.56" y2="-17.78" width="0.1524" layer="91"/>
+<pinref part="C10" gate="G$1" pin="1"/>
+<wire x1="284.48" y1="-15.24" x2="284.48" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="-12.7" x2="289.56" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="-12.7" x2="289.56" y2="-17.78" width="0.1524" layer="91"/>
+<label x="284.48" y="-12.7" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="C7" gate="G$1" pin="1"/>
+<wire x1="162.56" y1="25.4" x2="162.56" y2="30.48" width="0.1524" layer="91"/>
+<label x="162.56" y="27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="C8" gate="G$1" pin="1"/>
+<wire x1="175.26" y1="25.4" x2="175.26" y2="30.48" width="0.1524" layer="91"/>
+<label x="175.26" y="27.94" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="CTRL1" class="0">
 <segment>
@@ -2793,12 +3127,22 @@ Source: http://www.irf.com/product-info/datasheets/data/irf3704.pdf</description
 <wire x1="162.56" y1="91.44" x2="149.86" y2="91.44" width="0.1524" layer="91"/>
 <label x="152.4" y="91.44" size="1.778" layer="95"/>
 </segment>
+<segment>
+<wire x1="50.8" y1="-2.54" x2="35.56" y2="-2.54" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="IO12"/>
+<label x="35.56" y="-2.54" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="CTRL2" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="IN_B"/>
 <wire x1="162.56" y1="88.9" x2="149.86" y2="88.9" width="0.1524" layer="91"/>
 <label x="152.4" y="88.9" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="50.8" y1="-5.08" x2="35.56" y2="-5.08" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="IO13"/>
+<label x="35.56" y="-5.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GATE1" class="0">
@@ -2855,6 +3199,104 @@ Source: http://www.irf.com/product-info/datasheets/data/irf3704.pdf</description
 <pinref part="C6" gate="G$1" pin="2"/>
 <wire x1="261.62" y1="66.04" x2="261.62" y2="68.58" width="0.1524" layer="91"/>
 <label x="261.62" y="66.04" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VEE" class="0">
+<segment>
+<pinref part="SUPPLY1" gate="G$1" pin="VEE"/>
+<wire x1="15.24" y1="27.94" x2="15.24" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="22.86" x2="25.4" y2="22.86" width="0.1524" layer="91"/>
+<label x="17.78" y="22.86" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="VDD33_1"/>
+<wire x1="91.44" y1="20.32" x2="104.14" y2="20.32" width="0.1524" layer="91"/>
+<label x="96.52" y="20.32" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="VDD33_2"/>
+<wire x1="91.44" y1="17.78" x2="104.14" y2="17.78" width="0.1524" layer="91"/>
+<label x="96.52" y="17.78" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CTRL4" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="IN_B"/>
+<wire x1="185.42" y1="-2.54" x2="172.72" y2="-2.54" width="0.1524" layer="91"/>
+<label x="175.26" y="-2.54" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="50.8" y1="-10.16" x2="35.56" y2="-10.16" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="IO15"/>
+<label x="35.56" y="-10.16" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CTRL3" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="IN_A"/>
+<wire x1="185.42" y1="0" x2="172.72" y2="0" width="0.1524" layer="91"/>
+<label x="175.26" y="0" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="50.8" y1="-7.62" x2="35.56" y2="-7.62" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="IO14"/>
+<label x="35.56" y="-7.62" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GATE3" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="OUT_A"/>
+<wire x1="220.98" y1="5.08" x2="228.6" y2="5.08" width="0.1524" layer="91"/>
+<label x="220.98" y="5.08" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="Q3" gate="G$1" pin="G"/>
+<wire x1="256.54" y1="5.08" x2="248.92" y2="5.08" width="0.1524" layer="91"/>
+<label x="248.92" y="5.08" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GATE4" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="OUT_B"/>
+<wire x1="220.98" y1="2.54" x2="228.6" y2="2.54" width="0.1524" layer="91"/>
+<label x="220.98" y="2.54" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="Q4" gate="G$1" pin="G"/>
+<wire x1="256.54" y1="-22.86" x2="248.92" y2="-22.86" width="0.1524" layer="91"/>
+<label x="248.92" y="-22.86" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LOAD_RET4" class="0">
+<segment>
+<pinref part="U$4" gate="G$1" pin="P$2"/>
+<wire x1="297.18" y1="-20.32" x2="289.56" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="-20.32" x2="289.56" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="-25.4" x2="284.48" y2="-25.4" width="0.1524" layer="91"/>
+<pinref part="C10" gate="G$1" pin="2"/>
+<wire x1="284.48" y1="-25.4" x2="284.48" y2="-22.86" width="0.1524" layer="91"/>
+<label x="284.48" y="-25.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="Q4" gate="G$1" pin="D"/>
+<wire x1="261.62" y1="-15.24" x2="261.62" y2="-12.7" width="0.1524" layer="91"/>
+<label x="261.62" y="-12.7" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LOAD_RET3" class="0">
+<segment>
+<pinref part="U$3" gate="G$1" pin="P$2"/>
+<wire x1="297.18" y1="7.62" x2="289.56" y2="7.62" width="0.1524" layer="91"/>
+<label x="284.48" y="2.54" size="1.778" layer="95"/>
+<pinref part="C9" gate="G$1" pin="2"/>
+<wire x1="284.48" y1="5.08" x2="284.48" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="2.54" x2="289.56" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="2.54" x2="289.56" y2="7.62" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="Q3" gate="G$1" pin="D"/>
+<wire x1="261.62" y1="12.7" x2="261.62" y2="15.24" width="0.1524" layer="91"/>
+<label x="261.62" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
