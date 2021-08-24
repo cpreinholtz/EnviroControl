@@ -1,2 +1,7 @@
 https://randomnerdtutorials.com/esp32-pwm-arduino-ide/
 
+
+
+https://randomnerdtutorials.com/esp32-esp8266-i2c-lcd-arduino-ide/
+
+https://lastminuteengineers.com/esp8266-dht11-dht22-web-server-tutorial/
