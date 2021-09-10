@@ -1,7 +1,14 @@
 https://randomnerdtutorials.com/esp32-pwm-arduino-ide/
 
 
-
+NOT THIS, but good reference i guess
 https://randomnerdtutorials.com/esp32-esp8266-i2c-lcd-arduino-ide/
+https://www.amazon.com/dp/B07D83DY17?tag=makeradvisor-20&linkCode=osi&th=1&psc=1
+
+USE THIS:
+https://wiki.seeedstudio.com/Grove-16x2_LCD_Series/
+https://wiki.seeedstudio.com/Grove-LCD_RGB_Backlight/
+https://www.mouser.com/ProductDetail/Seeed-Studio/104020111?qs=%2Fha2pyFaduj3z9l5bBP5W9zEGcyQ9Uwtp5chAO1du7BA2YSM7%252B98bQ%3D%3D
+
 
 https://lastminuteengineers.com/esp8266-dht11-dht22-web-server-tutorial/
