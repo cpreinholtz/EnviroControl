@@ -40,7 +40,9 @@ tbd
 
 
 * **Electrical Design Considerations**
-* backwards compatability. would it be possible to use old nano, new nano BLE, BLE SENSE, BLE IOT? probably not without a 5v regulator.
+* backwards compatability. would it be possible to use old nano, new nano BLE, BLE SENSE, BLE IOT? probably not without a 5v regulator.  seems like 14.4 volts will be OK but the regulator may get too hot and shut down.
+* varying pwm frequency on the original nano is found here: https://forum.arduino.cc/t/varying-the-pwm-frequency-for-timer-0-or-timer-2/16679/5. grouping is pins 5+6, 9+10, 11+3 but changing TCRB0 is not reccomended (i.e. not reccomended to change for pins 5+6).  I used pin  9 in my orginal fan design.
+* varying pwm freq on the BLE is found here https://forum.arduino.cc/t/changing-pwm-frequency-25khz-4-pin-fan/669549, can be done on any pin.
 * 5v reg, probably only needed if backward compatability is needed because i think the new nanos handle 12v
 * Over current shutoff? how to detect a fault on the load lines?
 * Input voltage sense. volt div or otherwise for a low voltage cutoff to be enabled for battery protection.
