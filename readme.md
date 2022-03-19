@@ -45,13 +45,14 @@ tbd
 * varying pwm freq on the BLE is found here https://forum.arduino.cc/t/changing-pwm-frequency-25khz-4-pin-fan/669549, can be done on any pin.
 * 5v reg, probably only needed if backward compatability is needed because i think the new nanos handle 12v
 * Over current shutoff? how to detect a fault on the load lines?
-* Input voltage sense. volt div or otherwise for a low voltage cutoff to be enabled for battery protection.
+* 14.4V max Input voltage sense. volt div or otherwise for a low voltage cutoff to be enabled for battery protection. I have the design for 25K 5K voltage divider, meaning ADC will see 1/6 of power rail, should be 2.4v max
 * Do I need a heatsink if I am using a fet driver? perhaps I should add the abilty to install one just in case.
 * vertical, or horizintal, or barrel Fets.  Barrel is not enough for the fan, but perhaps LEDS it would work... Horizontal might make sense if only one fet is needed per board. vertical makes sense if mutiple and we can manage heat.
 
 * powering the board: The HTS221 humidity and temperature sensor: Due to self-heating, when the board is powered by USB, the HTS221 becomes unreliable and shows an offset in each reading that changes with the external temperature. To obtain reliable measurements, the board shall be powered by the 3v3 pin, this could be done by cutting the +3V3 solder jumper on the bottom and powering the board through the VIN pin.
 * perhaps consider a 3v3 reg in puture designs but in this case I am going to omit this for simplicity.
 * led spec'd for i=20mA v = 2.1v... VR = 3.3 - Vled = 1.2V...   r = v/i = 1.2v/ 20mA = 60 ohms, 120 would be 10 mA
+* Leds if running direct from 12v max 14.4, Vr = 14.4 - 2.1 = 12.3.  R = 12.3/20e-3 = 615 ohms
 
 * **Mechanical Design Considerations**
 * Easy spaced mounting holes and encoder location for use with CNCed, 3d printed, or lazer cut cases
